@@ -1,19 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 29 09:18:30 2025
-
-@author: Admin
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 29 07:27:55 2025
-
-@author: Admin
-"""
-
 import streamlit as st
-# Set page config
 st.set_page_config(
     page_title="Oyo State Election Analysis Dashboard",
     page_icon="📊",
