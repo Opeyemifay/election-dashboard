@@ -13,6 +13,13 @@ Created on Sat Mar 29 07:27:55 2025
 """
 
 import streamlit as st
+# Set page config
+st.set_page_config(
+    page_title="Oyo State Election Analysis Dashboard",
+    page_icon="📊",
+    layout="wide"
+)
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -27,13 +34,6 @@ import folium
 from folium.plugins import MarkerCluster, HeatMap
 import warnings
 warnings.filterwarnings('ignore')
-
-# Set page config
-st.set_page_config(
-    page_title="Oyo State Election Analysis Dashboard",
-    page_icon="📊",
-    layout="wide"
-)
 
 # App title and description
 st.title("Oyo State Election Integrity Analysis Dashboard")
